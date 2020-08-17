@@ -1,0 +1,28 @@
+body{
+    background: grey;
+}
+
+.navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    margin-left: 20px;;
+    
+}
+
+.container {
+    margin-top: 60px;
+    background: white;
+}
+.dummyimage{
+    height: 200px;
+    width: 300px;
+    
+}
+.bio{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
