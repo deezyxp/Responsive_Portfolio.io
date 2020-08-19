@@ -1,5 +1,6 @@
 body{
     background: lightblue;
+    position: relative;
 }
 
 
@@ -12,7 +13,7 @@ body{
     margin-top: 60px;
     background: white;
 }
-.suitpic{
+.suit-pic{
     height: 220px;
     width: 200px;
     padding-bottom: 10px;
@@ -25,45 +26,15 @@ body{
     text-align: center;
 }
 
-.grouppicture {
-    height: 350px;
-    width: 450px;
+.group-picture {
+    width: 100%;
     display: block;
     
 }
 
 .footer {
-    position:absolute;
+    position:fixed;
    bottom:0;
    width:100%;
    background: white;
-}
-
-@media (min-width: 768px) {
-    .container-small {
-        width: 300px;
-    }
-    .container-large {
-        width: 970px;
-    } 
-} 
-@media (min-width: 992px) {
-    .container-small {
-        width: 500px;
-    }
-    .container-large {
-        width: 1170px;
-    } 
-} 
-@media (min-width: 1200px) {
-    .container-small {
-        width: 700px;
-    }
-    .container-large {
-        width: 1500px;
-    } 
-}
-
-.container-small, .container-large {
-    max-width: 100%;
 }
