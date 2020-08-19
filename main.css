@@ -2,10 +2,6 @@ body{
     background: lightblue;
 }
 
-.navbar{
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 .navbar-brand {
     margin-left: 20px;;
@@ -32,5 +28,42 @@ body{
 .grouppicture {
     height: 350px;
     width: 450px;
+    display: block;
     
+}
+
+.footer {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   background: white;
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 1170px;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
+}
+
+.container-small, .container-large {
+    max-width: 100%;
 }
