@@ -1,5 +1,5 @@
 body{
-    background: grey;
+    background: lightblue;
 }
 
 .navbar{
@@ -17,8 +17,8 @@ body{
     background: white;
 }
 .dummyimage{
-    height: 200px;
-    width: 300px;
+    height: 220px;
+    width: 200px;
     
 }
 .bio{
