@@ -7,6 +7,7 @@ body{
 .navbar-brand {
     margin-left: 20px;;
     
+    
 }
 
 .container {
@@ -37,4 +38,35 @@ body{
    bottom:0;
    width:100%;
    background: white;
+}
+
+#github {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    border: 12px solid rgb(211, 139, 153);
+}
+
+.weatherwear {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 3px;
+}
+
+.weatherdashboard {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 3px;
+}
+
+.codequiz {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 3px;
+}
+
+.dayplanner {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 3px;
 }
